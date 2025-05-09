@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    padding: 60px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 30px;
+    background-image: url(imagenes/BLURRYFACE-BANER.jpg);
+    height: 52px;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.principal {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.banner-blurry {
+    background-image: url(imagenes/BLURRYFACE.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-blurry {
+    font-family: Impact, sans-serif;
+    font-size: 168px;
+    color: #ffffff;
+    padding-top: 31px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-top: -185px;
+    text-align: center;
+}
+
+.texto-blurry {
+    text-align: justify;
+    font-size: 22px;
+    padding: 0px 40px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-top: 17px;
+}
+
+.texto-blurry .resaltado {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.galeria-blurry {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 50px;
+}
+
+.galeria-blurry img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+    background-color: #FE0000;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 14px;
+}
+footer .redes img {
+    width: 70px;
+}
+
+.redes {
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.redes img {
+  width: 25px;
+  margin: 0 10px;
+}
